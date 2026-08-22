@@ -27,7 +27,7 @@ ln -s "$(pwd)/check-refs" /path/to/your/project/.claude/skills/check-refs
 
 ```
 /check-refs           # run the full reference integrity pass
-/check-refs --help    # prints the argument summary, takes no other action
+/check-refs --help    # reads and displays help.md verbatim, takes no other action
 ```
 
 See `SKILL.md` for the full pass procedure and reference format.

@@ -10,7 +10,11 @@ Runs a reference integrity pass on any article or document with numbered inline 
 ## Arguments
 
 - `/check-refs` (no args) - Run the full reference integrity pass on the target document
-- `/check-refs --help` - Prints this skill's summary and argument list, without checking or modifying anything
+- `/check-refs --help` - Do not run any other part of this skill. Read and display the contents of `help.md` (in this skill's folder) verbatim, then stop.
+
+## Target Document
+
+Before running the pass: if the user's invocation or the current conversation already names a specific file, confirm it before proceeding: "Running check-refs against `<path>` - confirm?" If no target was specified, ask the user which document to check. Never guess or scan a whole project for candidate documents.
 
 ## What Requires a Reference
 

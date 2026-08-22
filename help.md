@@ -1,7 +1,8 @@
 check-refs - Verify reference/citation integrity in any document with numbered footnotes.
 
 USAGE
-  /check-refs          Runs the full reference integrity pass: sequential
+  /check-refs          Resolves the target document (confirms it if already named,
+                        asks if not), then runs the full reference integrity pass: sequential
                         ordering, number-to-link validation, coverage check
                         for unattributed claims, dead-reference removal,
                         duplicate merging, and a primary-source check that
